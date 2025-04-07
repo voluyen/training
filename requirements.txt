@@ -3,14 +3,14 @@ datasets>=2.17.0
 unsloth>=0.0.16
 torch==2.5.0
 wandb
-bitsandbytes --no-deps
-accelerate --no-deps
-xformers==0.0.29 --no-deps
-peft --no-deps
-trl --no-deps
-triton --no-deps
-cut_cross_entropy --no-deps
-unsloth_zoo --no-deps
+bitsandbytes
+accelerate
+xformers==0.0.29
+peft
+trl
+triton
+cut_cross_entropy
+unsloth_zoo
 sentencepiece
 protobuf
 huggingface_hub
