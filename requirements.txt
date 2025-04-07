@@ -5,7 +5,7 @@ torch==2.5.0
 wandb
 bitsandbytes
 accelerate
-xformers==0.0.29
+xformers>=0.0.30 
 peft
 trl
 triton
